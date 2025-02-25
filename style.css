@@ -1,0 +1,32 @@
+#gameArea {
+    background-color:rgba(252, 211, 88, 0.708) ;
+    width: 1300px;
+    height: 300px;
+    border: 5px solid orangered;
+    position: absolute;
+    bottom: 10;
+    left: 20px;
+}
+#dino{
+    width: 100px;
+    height: 100px;
+    position:absolute;
+    bottom: 0;
+    left: 50px;
+}
+#obstaculo{
+    background-color: black;
+    width: 20px;
+    height: 20px;
+    position:absolute;
+    bottom: 0;
+    right: 0;
+}
+
+/* Estilo para animação de pulo */
+@keyframes jump {
+    0% { bottom: 0; }
+    50% { bottom: 200px; }
+    100% { bottom: 0; }
+}
+
